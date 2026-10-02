@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>psu.se411</groupId>
+  <artifactId>myprojectname</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <name>My Project Name</name>
+  <description>Short description of what your project does.</description>
+  <url>https://yourProjectUrl.dom</url>
+
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+
+  <organization>
+    <name>SE411-Tech-Company</name>
+    <url>https://mycompanyUrl.dom</url>
+  </organization>
+
+  <developers>
+    <developer>
+      <name>Ahmed Nasser</name>
+      <email>220110509@psu.edu.sa</email>
+    </developer>
+  </developers>
+
+  <properties>
+    <maven.compiler.release>21</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>23</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-maven-plugin</artifactId>
+        <version>0.0.8</version>
+        <configuration>
+          <mainClass>psu.se411.myprojectname.App</mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
